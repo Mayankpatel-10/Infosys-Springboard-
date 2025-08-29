@@ -1,0 +1,83 @@
+1. Software:
+Software is a set of instructions/programs that tell a computer how to perform tasks.
+It is intangible (cannot be touched).
+Types of Software:
+System Software: OS (Windows, Linux), Device Drivers, Utilities.
+Application Software: Word, Browsers, Games, WhatsApp.
+Programming Software: Compilers, Interpreters, IDEs.
+
+2. Applications of Python:
+Web Development
+Data Science
+AI & Machine Learning
+Automation/Scripting
+Game Development
+Desktop Applications
+Cybersecurity
+Scientific Computing
+IoT
+Blockchain & FinTech
+
+3. Variables:
+A variable is a name used to store data in memory.
+In Python, everything is stored as an object.
+Not key-value (only dictionaries use key-value pairs).
+
+4. Value:
+
+The actual data stored in a variable.
+
+5. Datatype:
+Defines the type of value a variable can hold.
+Examples: int, float, str, bool, list, tuple, dict, set.
+
+6. String:
+A sequence of characters enclosed in ' ' or " ".
+Example: "Hello", 'Python'.
+
+7. Declaration & Initialization:
+Declaration: Creating a variable name.
+Initialization: Assigning a value to it.
+Example: x = 10.
+
+8. Frontend, Backend, Database:
+Frontend: User interface (UI).
+Backend: Server-side logic.
+Database: Stores and manages data.
+
+9. Type Conversion:
+Changing a value from one datatype to another.
+
+10. Type Casting:
+Explicit conversion using functions like:
+int(), float(), str(), list().
+
+11. Symbols:
+Remainder: %
+Quotient: //
+
+12. Logical Operators:
+and: True if both are true.
+or: True if at least one is true.
+not: Reverses the condition.
+
+13. if: single condition
+Used when you need to check only one condition.
+If the condition is True → execute code.
+If False nothing happens.
+
+2. if-else: two conditions (True/False)
+Used when you want either this or that.
+If condition is True runs if block.
+If condition is False runs else block.
+
+3. if-elif-else: multiple conditions
+Used when there are many possible conditions.
+Python checks conditions one by one from top to bottom.
+Only the first True condition’s block is executed.
+If none are True else block runs.
+
+4. Nested if: if inside another if
+Used when you need to check a condition within another condition.
+The second if runs only if the first one is True.
+
