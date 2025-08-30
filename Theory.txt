@@ -66,18 +66,73 @@ Used when you need to check only one condition.
 If the condition is True → execute code.
 If False nothing happens.
 
-2. if-else: two conditions (True/False)
+14. if-else: two conditions (True/False)
 Used when you want either this or that.
 If condition is True runs if block.
 If condition is False runs else block.
 
-3. if-elif-else: multiple conditions
+15. if-elif-else: multiple conditions
 Used when there are many possible conditions.
 Python checks conditions one by one from top to bottom.
 Only the first True condition’s block is executed.
 If none are True else block runs.
 
-4. Nested if: if inside another if
+16. Nested if: if inside another if
 Used when you need to check a condition within another condition.
 The second if runs only if the first one is True.
 
+17. String Concatenation
+Concatenation means joining two or more strings together.
+Done using the + Operators
+Example:
+s1 = "Hello"
+s2 = "World"
+print(s1 + " " + s2) 
+
+18. Input
+input() is used to take input from the user.
+By default, it returns a string.
+Example:
+name = input("Enter your name: ")
+print("Hello", name)
+
+19. Variables (recap in Input context)
+A variable stores the data entered by user or defined in code.
+Example:
+x = input("Enter a number: ")
+
+20. Arithmetic Operators
+Used to perform mathematical operations:
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division
+%: Modulus (remainder)
+//: Floor Division (quotient)
+**: Exponent (power)
+
+21. Bitwise Operators
+Work at the bit level (0s and 1s).
+&: AND
+|: OR
+^: XOR
+~: NOT (inverts bits)
+<<: Left Shift
+>>: Right Shift
+
+22. Comparison Operators
+Used to compare values, result is True/False.
+==: Equal to
+!=: Not equal to
+>: Greater than
+<: Less than
+>=: Greater than or equal to
+<=: Less than or equal to
+
+23. String Split
+split() is used to break a string into parts (list) based on a separator.
+Default separator = space " ".
+Example:
+text = "Python is fun"
+words = text.split()
+print(words)  # ['Python', 'is', 'fun']
