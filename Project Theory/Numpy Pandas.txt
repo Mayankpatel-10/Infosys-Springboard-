@@ -7,7 +7,7 @@ Pandas (Python Data Analysis Library)
 Pandas is a Python library designed for data manipulation and analysis. It is built on top of NumPy and provides two main data structures: Series (for one-dimensional labeled data) and DataFrame (for two-dimensional tabular data). Pandas is commonly used for cleaning, transforming, and analyzing datasets. It can handle structured data like rows and columns similar to an Excel sheet. It is especially useful in data science for reading datasets from files, handling missing values, grouping and summarizing data, and preparing information for visualization or machine learning models.
 
 How to Load Pandas
-To work with Pandas, you first install it (using pip) and then import it into Python. Once imported, you can start using its functions.
+To work with Pandas, you first install it (using pip) (pip install pandas) and then import it into Python. Once imported, you can start using its functions.
 
 How to Use Pandas
 Pandas is mainly used for handling datasets like tables, spreadsheets, or CSV files. The data is stored in two structures:
@@ -34,4 +34,5 @@ Filtering Data
 From the DataFrame, you can select only students with marks greater than 85 in Math.
 
 Analyzing Data
+
 You can calculate the average marks, highest marks, or group students by subjects.
