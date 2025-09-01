@@ -1,0 +1,37 @@
+NumPy (Numerical Python)
+
+NumPy is a Python library used for working with numerical and scientific data. It provides support for large, multi-dimensional arrays and performs mathematical calculations efficiently. Python’s normal lists are slow for handling big numbers, so NumPy makes data processing faster and more memory-efficient. It is widely used in data science, machine learning, artificial intelligence, and scientific research because it allows operations like addition, multiplication, statistics, and linear algebra directly on arrays.
+
+Pandas (Python Data Analysis Library)
+
+Pandas is a Python library designed for data manipulation and analysis. It is built on top of NumPy and provides two main data structures: Series (for one-dimensional labeled data) and DataFrame (for two-dimensional tabular data). Pandas is commonly used for cleaning, transforming, and analyzing datasets. It can handle structured data like rows and columns similar to an Excel sheet. It is especially useful in data science for reading datasets from files, handling missing values, grouping and summarizing data, and preparing information for visualization or machine learning models.
+
+How to Load Pandas
+To work with Pandas, you first install it (using pip) and then import it into Python. Once imported, you can start using its functions.
+
+How to Use Pandas
+Pandas is mainly used for handling datasets like tables, spreadsheets, or CSV files. The data is stored in two structures:
+
+Series → Like a single column.
+DataFrame → Like a complete table with rows and columns.
+
+Examples (Conceptual, not code)
+
+Creating a DataFrame
+Imagine you have student marks in subjects:
+Name   Math   Science  
+A      90     85  
+B      70     80  
+C      88     92  
+
+
+In Pandas, this table is stored as a DataFrame.
+
+Reading Data from a CSV File
+Suppose you have a file students.csv with marks. Using Pandas, you can load it and directly view, analyze, or clean the data.
+
+Filtering Data
+From the DataFrame, you can select only students with marks greater than 85 in Math.
+
+Analyzing Data
+You can calculate the average marks, highest marks, or group students by subjects.
