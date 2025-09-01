@@ -1,0 +1,40 @@
+Data processing is the systematic process of collecting, organizing, and transforming raw data into meaningful, accurate, and useful information.
+
+
+Raw data by itself is not valuable, but when processed, it becomes information that supports decision-making, analysis, and predictions.
+
+Steps in Data Processing
+Data Collection
+Raw data is gathered from multiple sources.
+Sources: databases, sensors, surveys, online forms, APIs, IoT devices, etc.
+Example: Collecting air quality readings from monitoring stations.
+
+Data Preparation (Preprocessing)
+Raw data usually contains noise, errors, or missing values.
+In this step, data is cleaned and formatted.
+Tasks:
+Handldng missing values
+Removing duplicates
+Correcting wrong entries
+Normalizing or scaling values
+
+Data Input
+The cleaned data is entered into the system (databases, ML models, analytics software).
+Example: Feeding student marks into an analysis program.
+
+Data Processing
+Algorithms, statistical models, or machine learning methods are applied.
+This is where transformation, computations, and analysis happen.
+Example: Calculating average, applying filters, running predictive models.
+
+Data Storage
+Processed data is stored securely in databases, warehouses, or cloud systems.
+Ensures future access and use.
+Data Output
+Results are presented in a human-readable format.
+Examples: reports, dashboards, graphs, summaries.
+
+Data Interpretation
+The final stage where processed information is analyzed for insights and decision-making.
+Example: Concluding that pollution levels are rising in a city based on processed air quality data.
+

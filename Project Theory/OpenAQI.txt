@@ -1,0 +1,3 @@
+OpenAQ (Open Air Quality Platform)
+
+OpenAQ is a global, open-source platform that collects and shares air quality data from different sources worldwide. It brings together government data (like CPCB in India), research stations, and independent monitors into one platform. The data is freely available for researchers, developers, and the public to study pollution trends and build solutions.

@@ -1,0 +1,28 @@
+Resampling Data in Air Quality Prediction System
+
+When you collect air quality data, it usually comes in timestamps (like every second or every minute). To make analysis and prediction easier, you need to resample the data into a consistent frequency, such as daily averages or hourly averages.
+
+Load Data
+First, bring your dataset (CSV, API, or database) into a DataFrame with a date-time column.
+
+Convert Date Column
+Ensure the date column is recognized as a datetime type so that time-based operations can be done.
+
+Set Datetime as Index
+Make the datetime column the index of the DataFrame. This allows you to use resampling functions easily.
+
+Resample Daily
+Group the data by day to calculate daily averages, maximums, or sums of pollutants.
+
+Example: Find average PM2.5 and PM10 per day.
+
+Resample Hourly
+Group the data by hour to capture variations within the day.
+
+Example: Find average AQI every hour.
+
+Fill Missing Values
+Sometimes, data might be missing in a particular hour or day. Handle it using forward fill, backward fill, or interpolation.
+
+Use for Forecasting
+Once resampled, the clean dataset (daily or hourly) is ready to be used in EDA, trend analysis, and machine learning models for air quality prediction.
